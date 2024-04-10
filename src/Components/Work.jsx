@@ -5,6 +5,7 @@ import gt3rs from "../assets/gt3rs.jpg"
 import m5 from "../assets/m5.jpg"
 import gclass from "../assets/gclass.jpg"
 import c63 from "../assets/c63.jpg"
+import ichigo from "../assets/ichigo.jpg"
 const Work = () => {
   return (
     
@@ -78,12 +79,12 @@ Mercedes G class
                     </div>
 
 
-                    <div    style={{backgroundImage : `url(${c63})`}}
+                    <div    style={{backgroundImage : `url(${ichigo})`}}
                     className='shadow-md shadow-black group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effect */}
                         <div className='opacity-0 group-hover:opacity-100 '>
                                 <span className='text-2xl font-bold text-black tracking-wider'>
-Mercedes c63
+                                ichigo
                                 </span>
                            
                         </div>
