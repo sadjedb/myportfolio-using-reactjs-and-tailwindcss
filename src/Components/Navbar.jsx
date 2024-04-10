@@ -7,6 +7,7 @@ import {Link} from "react-scroll"
 const Navbar = () => {
     const [nav , setNav] = useState(false)
     function handleClick(){ 
+      
         return(
             setNav(!nav)
         )
@@ -64,11 +65,11 @@ const Navbar = () => {
       </ul>
       {/* Some shit */}
       <div  onClick={handleClick} className=   ' z-10  '>
-        {!nav ?<FaTimes  /> : <FaBars className='md:hidden' />}
+        {nav ?<FaTimes  /> : <FaBars className='md:hidden' />}
     
       </div>
       {/* Mobile Menu */}
-     {!nav && <ul className=' absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center'>
+     {nav && <ul className=' absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center'>
         <li className='py-6 text-4xl'><Link onClick={handleClick} to="home" smooth={true} duration={700} >Home </Link></li>
         <li className='py-6 text-4xl'><Link onClick={handleClick} to="About" smooth={true} duration={700} >About </Link></li>
         <li className='py-6 text-4xl'><Link onClick={handleClick} to="Skills" smooth={true} duration={700} >Skills </Link></li>
