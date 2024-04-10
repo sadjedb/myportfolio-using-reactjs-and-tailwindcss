@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] bg-black flex justify-between items-center px-4 text-gray-300 '>
         <div>
-            <img src={logo} alt="logo image" style={{width :'100px'}} />
+            <img src={logo} alt="logo" style={{width :'100px'}} />
         </div>
         {/* Menu */}
       <ul className='hidden md:flex'>
@@ -79,22 +79,22 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-blue-500'>
-                <a  href="" className='flex justify-between items-center w-full text-gray-300'>
+                <a  href="/" className='flex justify-between items-center w-full text-gray-300'>
                     Linkedin <FaLinkedin size={30} / > 
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#333333]'>
-                <a  href="" className='flex justify-between items-center w-full text-gray-300'>
+                <a  href="/" className='flex justify-between items-center w-full text-gray-300'>
                 Github <FaGithub size={30} / > 
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#6fc2b0]'>
-                <a  href="" className='flex justify-between items-center w-full text-gray-300'>
+                <a  href="/" className='flex justify-between items-center w-full text-gray-300'>
                     Email <HiOutlineMail size={30} / > 
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#565f69]'>
-                <a  href="" className='flex justify-between items-center w-full text-gray-300'>
+                <a  href="/" className='flex justify-between items-center w-full text-gray-300'>
                     Contact <BsFilePersonFill size={30} / > 
                 </a>
             </li>
